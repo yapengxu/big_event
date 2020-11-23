@@ -41,8 +41,8 @@ function xunran(user) {
     $("#welcome").html("欢迎&nbsp &nbsp" + name)
 
     if (user.user_pic !== null) {
-        $(".layui-nav-img").attr("src", user.user_pic).show()
         $(".text-avatar").hide();
+        $(".layui-nav-img").attr("src", user.user_pic).show()
     } else {
         $(".layui-nav-img").hide();
         let fist = name[0].toUpperCase()

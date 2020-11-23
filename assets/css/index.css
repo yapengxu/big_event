@@ -14,6 +14,12 @@ iframe{
 }
 .head{
   height: 60px;
+  padding: 10px 0 0 40px;
+}
+.layui-nav-img{
+  width: 44px;
+  height: 44px;
+  display: none;
 }
 .text-avatar{
   display: inline-block;
@@ -25,7 +31,8 @@ iframe{
   line-height:40px;
   font-size: 20px;
   color: yellow;
-  margin-left: 30px;
+  display: none;
+  /* margin-left: 30px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 10px; */
 }
